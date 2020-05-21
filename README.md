@@ -53,9 +53,13 @@ https://www.miniclip.com/games/decajump/en/
 
 ## Teacher Response ##
 
-Approved | Not approved
+**Approved**
 
-Comments and suggestions
+Good game idea and style that's appropriate for this project.  It will come to how good a job you do of the game and what features
+you have that add to the gameplay experience.  Having smooth gameplay with animations would definitely increase the gameplay experience.
+as well as a powerup or two. In any case, if you make a simplistic version then not so great.  Make a full featured version and it's excellent.
+
+FYI, gravity isn't too hard to implement.  You store dx and dy attributes that keep track of your player's change in position each animation frame and for gravity you just add a constant amount to dy every frame so that dy gets bigger and the player falls faster.  When a bumper balloon is touched, you "shoot" the player upward by changing the dy to something negative and big-ish like -10.  That will mean that the player now moves UP by 10 pixels each frame and then gravity might be something like 1.2 which would keep getting added to dy each frame and eventually pull the player back downward.  Finally, to make the background "scroll" you have many options.  Possibly the simplest is to have two tall images that are some kind of repeating background scene.  Place them adjacent and move their dy according to how fast you want to scroll.  When either of those image's y-position goes past the bottom edge of the screen, move the whole thing back up so that it sits exactly on top of the other image.  It's basically two images leapfrogging each other.
 
 ## Class Design and Brainstorm ##
 
