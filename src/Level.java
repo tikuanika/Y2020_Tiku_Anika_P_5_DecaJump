@@ -7,7 +7,7 @@ import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
 
-public class Level extends BallWorld{
+public class Level extends DecaJumpWorld{
 	
 	private BooleanProperty cleared;
 	
