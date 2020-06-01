@@ -10,6 +10,7 @@ import javafx.scene.layout.Pane;
 public abstract class World extends Pane{
 	private AnimationTimer timer;
 	private HashSet<KeyCode> keyDown;
+	public Score score;
 	
 	public World() {
 		timer = new myAnimationTimer();
@@ -17,6 +18,10 @@ public abstract class World extends Pane{
 	}
 	
 	public abstract void act(long now);
+	
+	public Score getScore(){
+		return score;
+	}
 	
 	public void add(Actor actor) {
 		this.getChildren().addAll(actor);
