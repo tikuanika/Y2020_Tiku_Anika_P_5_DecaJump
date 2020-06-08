@@ -96,7 +96,7 @@ Goal:  My goal is to work on the level class today and be able to have the gener
 
 Work accomplished:  I was able to create and perfect my level class, with some guidance of my group project, I was able to create a level that held the acid as well as created a ballon and deca jump character (monkey) actor. This is generic and will be used for each level so I decided to create it in the generic level, and then extend the rest of the levels. Although I coded most of the level class, I also created the extended versions of Level 1 and Level 2.
 
-**5/30/20 (4 hours) **
+**5/30/20 (4 hours)**
 
 Goal: My goal is to run the code and to fix any errors, and to make sure my characters are appearing correctly and create the levels, and add the seperate power-ups and my characters to move correctly.
 
@@ -108,13 +108,13 @@ Goal: My goal is once again to make sure there are no problems or errors when I 
 
 Work accomplished: I was able to make the deca jump character move straight up, but I wasn't able to make the character move sideways, and I wasn't able to complete the power-ups, but I got the brick to prevent movement for the character, as well as being able to make the character move in a "jumping" motion. I had to try a lot of things to get the gravity to appear to work, and although it isn't smooth, it did end up working and I was able to create an almost gravity effect.
 
-**6/1/20 (2 hours) **
+**6/1/20 (2 hours)**
 
 Goal: My goal is to make my sideways gravity effect work on the deca jump character.
 
 Work accomplished: I was able to make the sideways effect, although it isn't smooth, I realized that I could use a similar technique as we used in the group project, and I could be able to simply set the first and third part of the balloon to doing a certain action in contrast to the normal up and down jump that would come from connecting with the center part of the balloon. After getting this technique I worked on getting multiple of the power-ups to appear.
 
-**6/4/20 (2 hours) **
+**6/4/20 (2 hours)**
 
 Goal: My goal for today is to completely finish the project, and touch-ups and make all the objects appear correctly, and make the second level function correctly.
 
