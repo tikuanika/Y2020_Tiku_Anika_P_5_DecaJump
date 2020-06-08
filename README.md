@@ -68,23 +68,63 @@ FYI, gravity isn't too hard to implement.  You store dx and dy attributes that k
 
 ## Class Design and Brainstorm ##
 
-Put all your brainstorm ideas, strategy approaches, and class outlines here
+-make sure to implement power-ups
+   -include:
+        -blue balloon = subtraction to score
+        -yellow balloon = addition to score
+	-brick = a block/stops the character
+-add a score object
+-create a fun game over screen
+-add acid at the bottom to make sure there is something that will kill the character if it falls
+-mess around with the sizes to get a size that fits the best with your world
+-make sure to have several of each of the power-ups
+     -make sure to increase the intensity or how hard the level is from one to two
 
 ## Development Journal ##
 
 Every day you work, keep track of it here.
 
-**Date (time spent)**
+**5/26/20 (1 hour)**
 
-Goal:  What are you trying to accomplish today?
+Goal:  I want to just add the basic code, including the World class, and Actor class, as well as create my characters, including the basic outline of the parts.
 
-Work accomplished:  Describe what you did today and how it went.
+Work accomplished:  I ended up creating my project and adding the World and Actor class from my group project. I also created all of the creatures and the objects that i was planning on using for the game, including an image for each of the characters.
 
-**Date (time spent)**
+**5/28/20 (2 hours)**
 
-Goal:  What are you trying to accomplish today?
+Goal:  My goal is to work on the level class today and be able to have the general idea of a level and what should be included in each part of the game. I hope to also add another power-up, or object so that my game becomes more advanced.
 
-Work accomplished:  Describe what you did today and how it went.
+Work accomplished:  I was able to create and perfect my level class, with some guidance of my group project, I was able to create a level that held the acid as well as created a ballon and deca jump character (monkey) actor. This is generic and will be used for each level so I decided to create it in the generic level, and then extend the rest of the levels. Although I coded most of the level class, I also created the extended versions of Level 1 and Level 2.
+
+**5/30/20 (4 hours)**
+
+Goal: My goal is to run the code and to fix any errors, and to make sure my characters are appearing correctly and create the levels, and add the seperate power-ups and my characters to move correctly.
+
+Work accomplished: Immediately when I ran the code, I found an error where I was attaching my images. In the past I found the error before when trying to create the images, and I had to work through the error. I realized that I wasn't correctly adding the image to my src folder, which meant that when I called it, I wasn't getting anything, leaving a Null-Pointer error. This error took a lot of effort and time to fix because my debugger wasn't working in the beginning, and required me to fix that before I could work on the actual error. This took a lot of time, and I ended not being able to work on any other part.
+
+**5/31/20 (4 hours)**
+
+Goal: My goal is once again to make sure there are no problems or errors when I run my code, and I hope to try and get my characters to move correctly.
+
+Work accomplished: I was able to make the deca jump character move straight up, but I wasn't able to make the character move sideways, and I wasn't able to complete the power-ups, but I got the brick to prevent movement for the character, as well as being able to make the character move in a "jumping" motion. I had to try a lot of things to get the gravity to appear to work, and although it isn't smooth, it did end up working and I was able to create an almost gravity effect.
+
+**6/1/20 (2 hours)**
+
+Goal: My goal is to make my sideways gravity effect work on the deca jump character.
+
+Work accomplished: I was able to make the sideways effect, although it isn't smooth, I realized that I could use a similar technique as we used in the group project, and I could be able to simply set the first and third part of the balloon to doing a certain action in contrast to the normal up and down jump that would come from connecting with the center part of the balloon. After getting this technique I worked on getting multiple of the power-ups to appear.
+
+**6/4/20 (2 hours)**
+
+Goal: My goal for today is to completely finish the project, and touch-ups and make all the objects appear correctly, and make the second level function correctly.
+
+Work accomplished: Unfortunately I wasn't able to finish the project as it took me some time to work getting the objects to appear correctly, and in the right order, as well as getting the levels to move correctly, and to show a game over scene. It ended up being a simple task but I needed to change my condition statements several times, to make sure that I was taking into account ever chance of dying.
+
+**6/7/20 (3 hours)**
+
+Goal: My goal is to finish the game and all the finishing touches and adding a score object.
+
+Work accomplished: I was able to finish the game, make a non hard coded object lengths, and I made a score object in my world, once again using a similar concept as I used in the group project. Overall the game was a success, and I was able to make all the pieces the correct size, and the game include fun effects including a reflection on the game over screen, just to play around a little.
 
 ***
 ***
