@@ -2,8 +2,8 @@ import javafx.scene.image.Image;
 
 public class PointBoosterBalloon extends Actor{
 	
-	private double pointsBalloonWidth = 5;
-	private double pointsBalloonHeight = 5;
+	private double pointsBalloonWidth = 10;
+	private double pointsBalloonHeight = 10;
 
 	public PointBoosterBalloon(){
 		Image i = new Image("yellowballoon.jpg");

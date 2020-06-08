@@ -28,7 +28,7 @@ public class StartScreen extends Pane{
 		title.setTextFill(Color.STEELBLUE);
 		title.setEffect(new InnerShadow());
 		Label instr = new Label("How to Play");
-		Label descr = new Label(" 1. Avoiding the stops \n 2. hitting the bottom is -1000 \n 3. move your mouse around the screen to move the paddle and bounce the ball");
+		Label descr = new Label(" 1. Avoiding the stops \n 2. hitting the bottom is game over \n 3. move your mouse around the screen to move the balloon and bounce the deca jump character \n 4. collect as many points to increase ur score");
 		descr.setAlignment(Pos.CENTER);
 		title.setFont(Font.font(40));
 		instr.setFont(Font.font(30));

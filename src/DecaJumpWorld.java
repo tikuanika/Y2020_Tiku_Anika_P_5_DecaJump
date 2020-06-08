@@ -1,10 +1,13 @@
 
 public class DecaJumpWorld extends World{
-
+	
+	private Score score;
 	
 	public DecaJumpWorld(){
-//		score.setX(getWidth() / 2);
-//		score.setY(getHeight());
+		score = new Score();
+		score.setX(getWidth());
+		score.setY(0);
+		getChildren().add(score);
 		
 	}
 	
@@ -14,10 +17,10 @@ public class DecaJumpWorld extends World{
 		
 	}
 	
-//	public Score getScoreObject(){
-//		return score;
-//		
-//	}
+	public Score getScoreObject(){
+		return score;
+		
+	}
 
 }
  

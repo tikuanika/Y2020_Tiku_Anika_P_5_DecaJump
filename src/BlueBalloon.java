@@ -1,8 +1,8 @@
 import javafx.scene.image.Image;
 
 public class BlueBalloon extends Actor{
-	private double blueHeight = 5;
-	private double blueWidth = 5;
+	private double blueHeight = 30;
+	private double blueWidth = 30;
 	
 	public BlueBalloon(){
 		Image i = new Image("blueballoon.jpg");

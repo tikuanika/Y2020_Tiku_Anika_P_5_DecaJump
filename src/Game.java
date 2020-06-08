@@ -12,7 +12,7 @@ public class Game extends Application{
 	public void start(Stage stage) throws Exception {
 		stage.setTitle("Deca Jump"); 
 		
-		StartScreen start = new StartScreen(1000, 600, stage);
+		StartScreen start = new StartScreen(500, 1000, stage);
 		stage.show();
 	}
 

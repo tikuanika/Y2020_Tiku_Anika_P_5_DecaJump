@@ -5,11 +5,9 @@ public class Acid extends Actor{
 	public Acid(){
 		Image i = new Image("acid.jpg");
 		this.setImage(i);
-		if(this.getWorld() == null){
-			System.out.println("lol");
-		}
-		this.setFitHeight(10);
-		this.setFitWidth(10);
+		
+		this.setFitHeight(50);
+		this.setFitWidth(50);
 	}
 
 	@Override
